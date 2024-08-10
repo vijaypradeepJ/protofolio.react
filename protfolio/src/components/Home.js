@@ -1,4 +1,5 @@
-import './Home.css'
+import '../components/styles/Home.css';
+import '../components/styles/Mediaquery.css';
 import {ReactTyped} from "react-typed";
 import image from '../assets/black.png'
 import { FaLinkedin} from "react-icons/fa";

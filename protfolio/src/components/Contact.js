@@ -1,5 +1,5 @@
-import './Contact.css';
-import './Mediaquery.css'
+import '../components/styles/Contact.css';
+import '../components/styles/Mediaquery.css';
 import { FaLinkedin} from "react-icons/fa";
 import {FaGithubSquare} from 'react-icons/fa';
 

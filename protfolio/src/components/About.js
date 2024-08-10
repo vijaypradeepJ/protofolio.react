@@ -1,5 +1,5 @@
-import './About.css';
-import './Mediaquery.css';
+import '../components/styles/About.css';
+import '../components/styles/Mediaquery.css';
 import logo from '../assets/myphoto.png'
 import{Skills} from './Skillslist'
 function About() {

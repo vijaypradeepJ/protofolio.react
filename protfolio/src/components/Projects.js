@@ -1,5 +1,5 @@
-import './Project.css';
-import './Mediaquery.css';
+import '../components/styles/Project.css';
+import '../components/styles/Mediaquery.css';
 import {Projectdata} from './Projectlist'
 import { FaCss3Alt} from 'react-icons/fa';
 import {FaHtml5} from 'react-icons/fa';

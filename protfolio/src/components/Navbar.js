@@ -1,4 +1,5 @@
-import './Navbar.css';
+import '../components/styles/Navbar.css';
+import '../components/styles/Mediaquery.css';
 
 function Navbar(){
     return(
