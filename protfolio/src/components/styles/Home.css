@@ -1,0 +1,55 @@
+/* ////........Home Content........//// */
+
+.home-content{
+    padding-top:210px;
+    background-color:black;;
+}
+
+.home-content .name {
+  
+  
+  color:#db5c77;
+  width: 100%;
+  text-align: center;
+}
+
+.home-content .name h1 {
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.home-content .name p {
+  color: #f0f0e6;
+  font-size:2rem;
+}
+
+.angle-down-icon {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  border: 3px solid #db5c77;
+  border-radius: 50%;
+}
+
+.angle-down-icon a {
+  text-decoration: none;
+  color: #db5c77;
+  padding: 1rem;
+}
+.button{
+  text-decoration: none;
+  color:#db5c77;
+}
+.link{
+  margin-bottom:20px;
+}
+.link a{
+  text-decoration: none;
+  padding-left: 20px;
+  color: whitesmoke;
+}
+.link a:hover{
+  color: #db5c77;
+}
