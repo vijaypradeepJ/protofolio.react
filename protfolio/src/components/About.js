@@ -36,9 +36,19 @@ function About() {
 
                     <div class="bar">
                     <div class="info">
-                      <span>{skill.skill}</span>
+                      <div className="title">
+                      <h2>{skill.topic} </h2>
+
+                      </div>
+                      <div className="language">
+                      <p><span>{skill.skill1}{skill.logo1}</span> <span>{skill.skill2}{skill.logo2}</span> <span>{skill.skill3}{skill.logo3}</span></p>
+                        
+                      </div>
+              
+                     
+    
                     </div>
-                    <div class="progress-line"><span class={skill.progressline}></span></div>
+                    
     
                   </div>
                 ))

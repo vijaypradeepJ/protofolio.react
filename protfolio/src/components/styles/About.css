@@ -39,18 +39,19 @@
   }
   
   .about-content .left-content {
-    flex-basis: 45%;
+    
     text-align: center;
   }
   
   .about-content .right-content {
-    flex-basis: 45%;
+    
   }
   
   /* ///.....Skill Bar....../// */
   
   .skills-bar {
     padding: 25px 30px;
+    border:2px solid white;
   }
   
   .skills-bar .bar {
@@ -67,95 +68,8 @@
     color: #f0f0e6;
   }
   
-  .skills-bar .bar .progress-line {
-    position: relative;
-    height: 10px;
-    width: 550px;
-    background: #f0f0f0;
-    border-radius: 10px;
-    transform: scaleX(0);
-    transform-origin: left;
-    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
-  }
-  
-  .bar .progress-line span {
-    position: absolute;
-    background: #db5c77;
-    height: 100%;
-    border-radius: 10px;
-    transform: scaleX(0);
-    transform-origin: left;
-    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
-  }
-  
-  @keyframes animate {
-    100% {
-      transform: scaleX(1);
-    }
-  }
-  
-  .progress-line .HTML {
-    width: 80%;
-  }
-  .progress-line .CSS {
-    width: 70%;
-  }
-  .progress-line .Bootstrap {
-    width: 50%;
-  }
-  .progress-line .JavaScript {
-    width: 75%;
-  }
-  .progress-line .C {
-    width: 50%;
-  }
-  .progress-line .ReactJS {
-    width: 50%;
-  }
-  
-  .bar .progress-line span::before {
-    position: absolute;
-    content: "";
-    height: 0;
-    right: 0;
-    top: -12px;
-    width: 0;
-    border: 7px solid transparent;
-    border-bottom-width: 0px;
-    border-right-width: 0px;
-    border-top-style: #f0f0f0;
-    border-top-color: #f0f0f0;
-  }
-  
-  .bar .progress-line span::after {
-    position: absolute;
-    right: 0;
-    top: -28px;
-    color: black;
-    font-size: 12px;
-    font-weight: 700;
-    background: #f0f0f0;
-    padding: 1px 8px;
-    border-radius: 3px;
-  }
-  
-  .progress-line .HTML::after {
-    content: "80%";
-  }
-  .progress-line .CSS::after {
-    content: "70%";
-  }
-  .progress-line .Bootstrap::after {
-    content: "50%";
-  }
-  .progress-line .JavaScript::after {
-    content: "75%";
-  }
-  .progress-line .C::after {
-    content: "50%";
-  }
-  .progress-line .ReactJS::after {
-    content: "50%";
+  p span{
+    padding-left: 30px;
   }
   
   

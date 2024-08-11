@@ -1,7 +1,8 @@
 
+import todo from "../components/to do list.png";
 export const Projectdata=[
     {
-        src:'../assets/foodorder.png',
+        Image:"../components/to do list.png",
         title :'Online Food Order website(Swiggy clone)',
         subtitle:"Build Using HTML,CSS",
         link1:"https://github.com/vijaypradeepJ/online-Food-Order-System.git",
@@ -10,7 +11,7 @@ export const Projectdata=[
 
     },
     {
-        Image: '../assets/to do list.png',
+        Image: {todo},
         title :'TO-DO List',
         subtitle:"Build Using HTML,CSS,JavaScript",
         link1:"https://github.com/vijaypradeepJ/To-Do-List.git",
@@ -18,7 +19,7 @@ export const Projectdata=[
 
     },
     {
-        Image: '../assets/to do list.png',
+        Image: {},
         title :'Tax Invoice Generator',
         subtitle:"Build Using HTML,CSS,JavaScript",
         link1:"https://github.com/vijaypradeepJ/To-Do-List.git",
