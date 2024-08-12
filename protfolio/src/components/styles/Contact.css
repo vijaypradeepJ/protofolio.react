@@ -22,6 +22,10 @@ h1{
   align-items: center;
   justify-content: space-between;
 }
+.contactdetails .content .left-side h2{
+  color: #db5c77;
+}
+
 .contactdetails .content .left-side{
   width: 25%;
   height: 100%;
@@ -71,7 +75,7 @@ h1{
 }
 .right-side .input-box{
   height: 50px;
-  width: 100%;
+  width: 80%;
   margin: 12px 0;
 }
 .right-side .input-box input,
