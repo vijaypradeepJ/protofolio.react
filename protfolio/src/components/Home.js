@@ -8,9 +8,9 @@ import {FaMailBulk} from 'react-icons/fa';
 function Home(){
     return(
         
-        <div class="home-content" id="home-page">
+        <div className="home-content" id="home-page">
          
-        <div class="name">
+        <div className="name">
           <img src={image} alt={image} />
 
           <h1> Hi, I'm vijay Pradeep</h1>
