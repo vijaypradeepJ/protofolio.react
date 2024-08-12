@@ -7,7 +7,7 @@ function Contact(){
 
   return (
   
-      <div className="contactdetails">
+      <div className="contactdetails" id='contact'>
         <h1>Get in Touch With Me</h1>
         <div className="content">
           <div className="left-side">
@@ -34,8 +34,9 @@ function Contact(){
               <input type="text" placeholder="Enter your email"/>
             </div>
             <div className="input-box message-box">
-              
+              <textarea name="meg" id="msg" placeholder='comments'></textarea>
             </div>
+
             <div className="button">
               <input type="button" value="Send Now" />
             </div>
