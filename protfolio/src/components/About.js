@@ -1,5 +1,6 @@
 import '../components/styles/About.css';
 import '../components/styles/Mediaquery.css';
+import {Skills} from "./Skillslist";
 
 import logo from '../assets/myphoto.png'
 
@@ -32,36 +33,21 @@ function About() {
                 <h1 className="skills-heading">My Skills</h1>
               </div>
               <div className="skills-bar">
-                <div className="bar">
-                  <div className="info">
-                    <span>HTML</span>
-                  </div>
-                  <div className="progress-line"><span className="html"></span></div>
-                  <div className="bar">
-                    <div className="info">
-                      <span>CSS</span>
-                    </div>
-                    <div className="progress-line"><span className="css"></span></div>
+                {
+                  Skills.map((skills) =>
+                  (
                     <div className="bar">
-                      <div className="info">
-                        <span>BOOTSTRAP</span>
-                      </div>
-                      <div className="progress-line"><span className="bootstrap"></span></div>
-                      <div className="bar">
-                        <div className="info">
-                          <span>JAVASCRIPT</span>
-                        </div>
-                        <div className="progress-line"><span className="javascript"></span></div>
-                        <div className="bar">
-                          <div className="info">
-                            <span>C Programming</span>
-                          </div>
-                          <div className="progress-line"><span className="c"></span></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                    <div className="info">
+                    <span>{skills.title}{skills.symbol}</span>
+                   </div>
+                   <div className="progress-line"><span className={skills.title}></span>
+                   </div>
+                   </div>
+
+                  ))
+
+                }
+
             </div>
             </div>
           </div>
