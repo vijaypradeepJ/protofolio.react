@@ -8,42 +8,42 @@ function Contact(){
 
   return (
   
-      <div class="contactdetails">
+      <div className="contactdetails">
         <h1>Get in Touch With Me</h1>
-        <div class="content">
-          <div class="left-side">
-            <div class="address details">
+        <div className="content">
+          <div className="left-side">
+            <div className="address details">
               <FaAddressCard/>
-              <div class="topic">Address</div>
-              <div class="text-one">Surkhet, NP12</div>
-              <div class="text-two">Birendranagar 06</div>
+              <div className="topic">Address</div>
+              <div className="text-one">Surkhet, NP12</div>
+              <div className="text-two">Birendranagar 06</div>
             </div>
-            <div class="phonedetails">
+            <div className="phonedetails">
             <h2><FaPhoneAlt/></h2>
-              <div class="topic">Phone</div>
-              <div class="text-one">+0098 9893 5647</div>
-              <div class="text-two">+0096 3434 5678</div>
+              <div className="topic">Phone</div>
+              <div className="text-one">+0098 9893 5647</div>
+              <div className="text-two">+0096 3434 5678</div>
             </div>
-            <div class="email details">
-              <i class="fas fa-envelope"></i>
-              <div class="topic">Email</div>
-              <div class="text-one">codinglab@gmail.com</div>
-              <div class="text-two">info.codinglab@gmail.com</div>
+            <div className="email details">
+              <i className="fas fa-envelope"></i>
+              <div className="topic">Email</div>
+              <div className="text-one">codinglab@gmail.com</div>
+              <div className="text-two">info.codinglab@gmail.com</div>
             </div>
           </div>
-          <div class="right-side">
-            <div class="topic-text"></div>
+          <div className="right-side">
+            <div className="topic-text"></div>
           <form action="#">
-            <div class="input-box">
+            <div className="input-box">
               <input type="text" placeholder="Enter your name"/>
             </div>
-            <div class="input-box">
+            <div className="input-box">
               <input type="text" placeholder="Enter your email"/>
             </div>
-            <div class="input-box message-box">
+            <div className="input-box message-box">
               
             </div>
-            <div class="button">
+            <div className="button">
               <input type="button" value="Send Now" />
             </div>
           </form>
