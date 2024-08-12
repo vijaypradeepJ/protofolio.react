@@ -15,20 +15,20 @@ function Contact(){
             <div className="address details">
               <FaAddressCard/>
               <div className="topic">Address</div>
-              <div className="text-one">Surkhet, NP12</div>
-              <div className="text-two">Birendranagar 06</div>
+              <div className="text-one">2/138,Nadu street</div>
+              <div className="text-two">mallayapuram , dindigul -624707</div>
             </div>
             <div className="phonedetails">
             <h2><FaPhoneAlt/></h2>
               <div className="topic">Phone</div>
-              <div className="text-one">+0098 9893 5647</div>
-              <div className="text-two">+0096 3434 5678</div>
+              <div className="text-one">9342496489</div>
+              <div className="text-two">7667311060</div>
             </div>
             <div className="email details">
               <i className="fas fa-envelope"></i>
               <div className="topic">Email</div>
-              <div className="text-one">codinglab@gmail.com</div>
-              <div className="text-two">info.codinglab@gmail.com</div>
+              <div className="text-one">pradeepvijay3568@gmail.com</div>
+              <div className="text-two">vijayprdaeep3568@gmail.com</div>
             </div>
           </div>
           <div className="right-side">
