@@ -24,16 +24,6 @@ function Home(){
           </div>
        
         
-
-          <button className="button">
-            <a
-            className="button"
-            href="../assets/Resume/vijay Resume.pdf"
-            download="vijay Resume.pdf"
-             >
-                Download Resume
-                </a>
-                </button>
         </div>
       </div>
      

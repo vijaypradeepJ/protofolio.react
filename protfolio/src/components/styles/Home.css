@@ -1,7 +1,7 @@
 /* ////........Home Content........//// */
 
 .home-content{
-    padding-top:210px;
+    padding-top:110px;
     background-color:black;;
 }
 
@@ -19,6 +19,7 @@
 }
 
 .home-content .name p {
+  margin-bottom:10px;
   color: #f0f0e6;
   font-size:2rem;
 }

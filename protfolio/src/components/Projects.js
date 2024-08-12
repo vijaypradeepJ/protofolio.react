@@ -1,6 +1,5 @@
 import '../components/styles/Project.css';
 import '../components/styles/Mediaquery.css';
-import image from "../components/to do list.png";
 import {Projectdata} from './Projectlist'
 import { FaCss3Alt} from 'react-icons/fa';
 import {FaHtml5} from 'react-icons/fa';
@@ -16,7 +15,7 @@ function Project(){
       <div class="portfolio-content container">
         {Projectdata.map((Project)=> (
              <div class="proj-1">
-             <img src={image} alt={Project.src}/>
+             <img src={Project.Image} alt={Image}/>
              <div class="proj1-details">
                <h2>{Project.title}</h2>
                <p><FaHtml5/>

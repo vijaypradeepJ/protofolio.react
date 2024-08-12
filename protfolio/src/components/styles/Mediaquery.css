@@ -63,7 +63,11 @@
     }
   
     .contact-content {
-      width: 100%;
+      width:100%;
+      text-align: start;
+    }
+    input{
+      width:40px;
     }
   }
   

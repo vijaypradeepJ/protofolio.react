@@ -8,7 +8,7 @@ export const Skills =[
         logo1:<FaCss3Alt/>,
         skill2:'CSS',
         logo2:<FaHtml5/>,
-        skill3:'JavaScript',
+        skill3:'JAVASCRIPT',
         logo3:<DiJavascript/>
        
     },
