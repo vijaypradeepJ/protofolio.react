@@ -1,8 +1,9 @@
 
 import todo from "../components/to do list.png";
+import foodwebsite from './to do list.png';
 export const Projectdata=[
     {
-        Image:"../components/to do list.png",
+        Image:{foodwebsite},
         title :'Online Food Order website(Swiggy clone)',
         subtitle:"Build Using HTML,CSS",
         link1:"https://github.com/vijaypradeepJ/online-Food-Order-System.git",
